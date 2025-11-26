@@ -23,7 +23,8 @@ public class Main {
      * @return the sum of the two integers
      */
     public static int add(int a, int b) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+
+        return a + b;
     }
 
     /**
