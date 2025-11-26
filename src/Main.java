@@ -10,7 +10,8 @@ public class Main {
      * @return the input name
      */
     public static String greet(String name) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+
+        return name;
     }
 
 
