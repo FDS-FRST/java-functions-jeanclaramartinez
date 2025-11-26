@@ -35,9 +35,9 @@ public class Main {
      * @param number
      * @return
      */
-    public static boolean isEven(int a) {
+    public static boolean isEven(int number) {
 
-        boolean isEven = ( a % 2) == 0;
+        boolean isEven = ( number % 2) == 0;
         return isEven;
 
     }
@@ -64,7 +64,17 @@ public class Main {
      * @return
      */
     public static String grade(int score) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+        if (score >= 90) {
+            return "A";
+        } else if (score >= 80) {
+            return "B";
+        } else if (score >= 70) {
+            return "C";
+        } else if (score >= 60) {
+            return "D";
+        } else {
+            return "F";
+        }
     }
 
     /**
