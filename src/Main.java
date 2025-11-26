@@ -105,7 +105,7 @@ public class Main {
      * @return
      */
     public static double toFahrenheit(double celsius) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+        return (celsius * 9 / 5) + 32;
     }
 
     /**
