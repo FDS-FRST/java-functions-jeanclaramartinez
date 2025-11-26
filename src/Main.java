@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.List;
 
+import static java.lang.Math.PI;
+
 public class Main {
 
     /**
@@ -47,7 +49,7 @@ public class Main {
      * @return
      */
     public static double areaOfCircle(double radius) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+        return Math.PI * radius * radius;
     }
 
     /**
