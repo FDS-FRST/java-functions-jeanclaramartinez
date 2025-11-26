@@ -33,8 +33,11 @@ public class Main {
      * @param number
      * @return
      */
-    public static boolean isEven(int number) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+    public static boolean isEven(int a) {
+
+        boolean isEven = ( a % 2) == 0;
+        return isEven;
+
     }
 
     /**
