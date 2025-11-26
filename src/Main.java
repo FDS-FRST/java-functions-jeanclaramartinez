@@ -141,17 +141,22 @@ public class Main {
     /**
      * Calculates factorial of a number.
      *
-     * @param ns
+     * @param
      * @return
      */
     public static int factorial(int n) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+        int result = 1;
+
+        for (int i = 2; i <= n; i++) {
+            result *= i;
+        }
+        return result;
     }
 
     /**
      * Calculates fibonacci number.
      *
-     * @param n
+     * @param
      * @return
      */
     public static int fibonacci(int n) {
