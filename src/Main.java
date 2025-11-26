@@ -86,7 +86,16 @@ public class Main {
      * @return
      */
     public static int maxOfThree(int a, int b, int c) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+       /* throw new UnsupportedOperationException("Not yet implemented!");*/
+       int max = a;
+       if (b > max ) {
+       max = b;
+       }
+       if (c > max) {
+           max = c;
+       }
+       return max;
+
     }
 
     /**
