@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import static java.lang.Math.PI;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -127,13 +128,20 @@ public class Main {
      * @return
      */
     public static List<Integer> filterEvenNumbers(List<Integer> numbers) {
-        throw new UnsupportedOperationException("Not yet implemented!");
+        List<Integer> evenNumbers = new ArrayList<>();
+
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                evenNumbers.add(num);
+            }
+        }
+        return evenNumbers;
     }
 
     /**
      * Calculates factorial of a number.
      *
-     * @param n
+     * @param ns
      * @return
      */
     public static int factorial(int n) {
