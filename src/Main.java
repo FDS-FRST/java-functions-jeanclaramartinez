@@ -116,7 +116,6 @@ public class Main {
      * @return
      */
     public static double applyDiscount(double price, double discount) {
-        /* throw new UnsupportedOperationException("Not yet implemented!");*/
         return price - (price * discount / 100 );
     }
 
