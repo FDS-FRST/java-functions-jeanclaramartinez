@@ -160,7 +160,7 @@ public class Main {
      * @return
      */
     public static int fibonacci(int n) {
-        //throw new UnsupportedOperationException("Not yet implemented!");
+
         if (n <= 1) {
             return n;
         }
