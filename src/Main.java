@@ -160,7 +160,6 @@ public class Main {
      * @return
      */
     public static int fibonacci(int n) {
-
         if (n <= 1) {
             return n;
         }
